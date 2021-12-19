@@ -1,3 +1,13 @@
+--[[
+ _COPY BELOW_
+--variables
+local prefix = "!"--DO NOT SET THIS TO ( . )!
+local waitbeforeexecuting = .5
+local dtool
+bannedplrs={}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealSiesgo/RoCraft/main/FE-ADMIN.lua"))()
+ -COPY UP-
+]]
 if not _G.EXECUTEDROCRAFTADMINa then _G.EXECUTEDROCRAFTADMIN=true
 	--fucntions
 	function findplr(plrname)
